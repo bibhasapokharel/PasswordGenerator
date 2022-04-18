@@ -182,5 +182,4 @@ clipboardEl.addEventListener(`click`, () => {
     // textarea.remove();
 
     // alert(`Password has been copied to the clipboard`)
-
 });
