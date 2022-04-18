@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+*{
+    /* Includes the padding and border when setting a with or heigth for an element */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Old Standard TT', serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5em;
+    padding: 25px;
+    line-height: 2;
+    background-image: url(taylor-van-riper-yQorCngxzwI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h2{
+    /* top right/left bottom */
+    margin: 10px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Rubik Puddles', cursive;
+    color: rgb(4, 29, 63);
+}
+.btn{
+    background-color: rgba(33, 188, 235, 0.884);
+    border: none;
+    color: cornsilk;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: .7em;
+    border-radius: 8px;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+#container{
+    border: dotted rgba(3, 19, 90, 0.39) 5px;
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 15px;
+    border-radius: 15px;   
+}
+
+#result-container{
+    background-color: #fff;
+    height: 50px;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clipboard{
+    font-size: 20px;
+}
+
+#generate{
+    font-size: 16px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
